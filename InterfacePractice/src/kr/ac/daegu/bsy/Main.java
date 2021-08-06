@@ -3,6 +3,8 @@ package kr.ac.daegu.bsy;
 import kr.ac.daegu.bsy.student.ElementaryStudent;
 import kr.ac.daegu.bsy.student.HighSchoolStudent;
 import kr.ac.daegu.bsy.student.Student;
+import pizza.BsyPizza;
+import pizza.PizzaBaker;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -65,6 +67,16 @@ public class Main {
         }
         for(HighSchoolStudent hs : highSchoolStudents) {
             hs.printStudentInfo();
+        }
+
+        // interface 구현 문제
+        List<PizzaBaker> pizzaBakers = new ArrayList<>();
+
+        pizzaBakers.add(new BsyPizza("Bsy특제빵", "Bsy재료들"));
+        for (PizzaBaker a : pizzaBakers){
+            a.baking();
+            a.addIngrediant();
+            a.packing();
         }
 
 
