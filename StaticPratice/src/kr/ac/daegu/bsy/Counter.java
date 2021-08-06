@@ -12,7 +12,7 @@ public class Counter {
         return count;
     }
     public int getScore(){
-        count= 44; // 인스터스 메소드에서는 static 멤버볍수를 쓸수 있다.
+        count= 44; // 인스터스 메소드에서는 static 멤버변수를 쓸수 있다.
         return score;
     }
     public  static  void main(String[] args){
