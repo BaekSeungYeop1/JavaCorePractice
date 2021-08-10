@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CollectionPractice/CollectionPractice.iml" filepath="$PROJECT_DIR$/CollectionPractice/CollectionPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExceptionTest/ExceptionTest.iml" filepath="$PROJECT_DIR$/ExceptionTest/ExceptionTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExceptionTest2/ExceptionTest2.iml" filepath="$PROJECT_DIR$/ExceptionTest2/ExceptionTest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExtendsAbstractPractice/ExtendsAbstractPractice.iml" filepath="$PROJECT_DIR$/ExtendsAbstractPractice/ExtendsAbstractPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashMapPractice/HashMapPractice.iml" filepath="$PROJECT_DIR$/HashMapPractice/HashMapPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterfacePractice/InterfacePractice.iml" filepath="$PROJECT_DIR$/InterfacePractice/InterfacePractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaCorePractice.iml" filepath="$PROJECT_DIR$/.idea/JavaCorePractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StaticPratice/StaticPratice.iml" filepath="$PROJECT_DIR$/StaticPratice/StaticPratice.iml" />
+    </modules>
+  </component>
+</project>
