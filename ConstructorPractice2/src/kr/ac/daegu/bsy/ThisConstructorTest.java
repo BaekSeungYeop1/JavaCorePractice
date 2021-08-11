@@ -3,6 +3,8 @@ package kr.ac.daegu.bsy;
 public class ThisConstructorTest {
 
     public static void main(String[] args) {
+        System.out.println("ConstructorPractice2");
+        //p.201 ~ p.202
         House house1 = new House();
         System.out.println(
                 "house.price = " + house1.price

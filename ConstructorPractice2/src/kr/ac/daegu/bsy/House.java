@@ -58,5 +58,15 @@ class House {
     public void setKind(String kind) {
         this.kind = kind;
     }
+
+    @Override
+    public String toString() {
+        return "House " +
+                "price=" + price +
+                ", dong='" + dong + '\'' +
+                ", size=" + size +
+                ", kind='" + kind + '\''
+                ;
+    }
 }
 
