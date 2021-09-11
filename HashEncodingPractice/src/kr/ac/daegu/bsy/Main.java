@@ -13,7 +13,7 @@ public class Main {
         // 회원가입할 때 비밀번호 저장
         String password = "dddd";
         String salt = String.valueOf(UUID.randomUUID()); // 무작위 문자열 : 회원가입 할 때 생성되어 DB의 SALT 컬럼에 INSERT
-        String saltPassword = salt + password;
+        String saltPassword = password + salt;
         String encodedPassword = "";
 
         try {
