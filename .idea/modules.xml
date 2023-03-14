@@ -27,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaCorePractice.iml" filepath="$PROJECT_DIR$/.idea/JavaCorePractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/JspPractice/JspPractice.iml" filepath="$PROJECT_DIR$/JspPractice/JspPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/LamdaPractice/LamdaPractice.iml" filepath="$PROJECT_DIR$/LamdaPractice/LamdaPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OptionalPractice/OptionalPractice.iml" filepath="$PROJECT_DIR$/OptionalPractice/OptionalPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/StaticPratice/StaticPratice.iml" filepath="$PROJECT_DIR$/StaticPratice/StaticPratice.iml" />
       <module fileurl="file://$PROJECT_DIR$/StreamPractice/StreamPractice.iml" filepath="$PROJECT_DIR$/StreamPractice/StreamPractice.iml" />
     </modules>
