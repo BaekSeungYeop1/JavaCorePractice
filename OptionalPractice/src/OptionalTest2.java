@@ -29,6 +29,7 @@ public class OptionalTest2 {
         System.out.println("result1 = " + result1);
         System.out.println("result2 = " + result2);
 
+        // ifPresent 값이 null이면 에러 발생,
         Optional.of("456").map(Integer::parseInt)
                 .ifPresent(x -> System.out.printf("result3=%d%n", x));
 
