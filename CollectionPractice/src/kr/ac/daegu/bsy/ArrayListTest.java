@@ -1,6 +1,8 @@
 package kr.ac.daegu.bsy;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class ArrayListTest {
 
@@ -10,11 +12,16 @@ public class ArrayListTest {
 
     public static void main(String[] args) {
         ArrayList<String> array = new ArrayList<String>();
+        ArrayList arr2 = new ArrayList();
+
+        arr2.add(10);
+        arr2.add("10");
 
         array.add("korea");
         array.add("japan");
         array.add("america");
         array.add("brittain");
+        System.out.println(Arrays.toString(arr2.toArray()));
 
         System.out.println("ArrayList에 요소 추가하고 출력");
         for (String s : array) {
