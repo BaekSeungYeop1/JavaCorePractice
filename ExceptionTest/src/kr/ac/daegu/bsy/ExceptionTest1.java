@@ -1,6 +1,6 @@
 package kr.ac.daegu.bsy;
 
-public class Main {
+public class ExceptionTest1 {
 
     public static void main(String[] args) {
         // p.319 ExceptionTest3

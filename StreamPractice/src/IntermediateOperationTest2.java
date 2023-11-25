@@ -1,7 +1,7 @@
 import java.io.File;
 import java.util.stream.Stream;
 
-public class IntermediateOperationTest2 {
+public class  IntermediateOperationTest2 {
     public static void main(String[] args) {
         File[] fileArr = { new File("Ex1.java"), new File("Ex1.bak"), new File("Ex2.java"),
                 new File("Ex1"),new File("Ex1.txt")

@@ -10,7 +10,7 @@ public class CollectionTest {
         // 컬렉션
         List<Integer> list = Arrays.asList(1,2,3,4,5);
         Stream<Integer> intStream = list.stream();
-        //intStream.forEach(System.out::print);
+        intStream.forEach(System.out::print);
 
         // stream은 1회용, stream에 대해 최종연산을 수행하면 stream이 닫힌다
         intStream = list.stream();
@@ -23,7 +23,7 @@ public class CollectionTest {
         Stream<String> strStream3 = Stream.of(strArr);
         Stream<String> strStream4 = Arrays.stream(strArr);
 
-        //strStream1.forEach(System.out::println);
+        strStream1.forEach(System.out::println);
         //strStream2.forEach(System.out::println);
 
         int[] intArr = {1,2,3,4,5};

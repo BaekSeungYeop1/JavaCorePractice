@@ -1,6 +1,6 @@
 package kr.ac.daegu.bsy;
 
-public class Main {
+public class ConstructorTest3 {
 
     public static void main(String[] args) {
         System.out.println("ConstructorPractice3");

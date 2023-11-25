@@ -1,5 +1,8 @@
 package kr.ac.daegu.bsy;
 
+/*
+ *
+ */
 public class HousePark {
     static String lastname = "박";
 
